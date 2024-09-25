@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const Rules = () => {
@@ -13,8 +12,8 @@ const Rules = () => {
           Click on dice image
           <br />
           after click on dice if selected number is equal to dice number you
-          will get same point as dice <br />> if you get wrong guess then 2
-          point will be dedcuted
+          will get same point as dice <br /> if you get wrong guess then 2 point
+          will be dedcuted
         </p>
       </div>
     </RulesContainer>
@@ -32,8 +31,11 @@ const RulesContainer = styled.div`
   border-radius: 10px;
   h2 {
     font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
   }
   .text {
-    margin-top: 24px;
+    margin-top: 10px;
+    padding: 10px;
   }
 `;
